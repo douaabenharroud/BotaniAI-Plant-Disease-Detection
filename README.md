@@ -30,7 +30,8 @@ The system follows a layered AIoT architecture:
 2. Network Layer: WiFi + HTTP REST APIs
 3. Cloud & Processing Layer: ThingSpeak, MongoDB, FastAPI, ML models
 4. Application Layer: Flutter dashboard
-<img src="docs/architecture.png" alt="BotaniAI System Architecture" width="300"/>
+<img src="docs/architecture.png" width="300"/>
+**Figure 1: BotaniAI system architecture**
 ## Hardware Components
 - ESP32 Microcontroller
 - DHT22 (Temperature & Humidity)
