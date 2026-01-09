@@ -38,7 +38,7 @@ The system follows a layered AIoT architecture:
 - **Cloud & Processing Layer:** ThingSpeak, MongoDB, FastAPI, ML models
 - **Application Layer:** Flutter dashboard
 
-<img src="docs/architecture.png" alt="BotaniAI System Architecture" width="700"/>
+<img src="docs/architecture.png" alt="BotaniAI System Architecture" width="300"/>
 
 **Figure 1.** BotaniAI system architecture
 
