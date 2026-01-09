@@ -6,7 +6,7 @@
 *.swp
 .buildlog/
 .history
-
+.env
 venv/
 **/venv/
 botaniAI-backend+prediction/botaniai-backend/models/botaniai-ml/venv/
