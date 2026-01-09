@@ -16,6 +16,9 @@ BotaniAI addresses this gap by transforming sensor data into intelligent, predic
 ## Why This Project Matters
 BotaniAI demonstrates an end-to-end AIoT system, covering embedded systems, cloud communication, machine learning, and frontend visualization.  
 It reflects real-world constraints such as noisy sensor data, limited hardware resources, and the need for interpretable AI-driven recommendations.
+
+---
+
 ## Key Features
 - Real-time monitoring of temperature, humidity, soil moisture, and light intensity
 - ESP32-based IoT data acquisition
@@ -24,19 +27,31 @@ It reflects real-world constraints such as noisy sensor data, limited hardware r
 - Ensemble model using XGBoost and LightGBM
 - REST API for AI inference (FastAPI)
 - Cross-platform Flutter dashboard
+
+---
+
 ## System Architecture
 The system follows a layered AIoT architecture:
-1. Perception Layer: ESP32 + sensors (DHT22, LDR, Soil Moisture)
-2. Network Layer: WiFi + HTTP REST APIs
-3. Cloud & Processing Layer: ThingSpeak, MongoDB, FastAPI, ML models
-4. Application Layer: Flutter dashboard
-<img src="docs/architecture.png" width="300"/>
-**Figure 1: BotaniAI system architecture**
+
+- **Perception Layer:** ESP32 + sensors (DHT22, LDR, Soil Moisture)
+- **Network Layer:** WiFi + HTTP REST APIs
+- **Cloud & Processing Layer:** ThingSpeak, MongoDB, FastAPI, ML models
+- **Application Layer:** Flutter dashboard
+
+<img src="docs/architecture.png" alt="BotaniAI System Architecture" width="700"/>
+
+**Figure 1.** BotaniAI system architecture
+
+---
+
 ## Hardware Components
 - ESP32 Microcontroller
 - DHT22 (Temperature & Humidity)
 - LDR (Light Intensity)
 - Soil Moisture Sensor
+
+---
+
 ## Software Stack
 - MicroPython (ESP32 firmware)
 - ThingSpeak (IoT cloud platform)
@@ -44,40 +59,63 @@ The system follows a layered AIoT architecture:
 - FastAPI (ML inference service)
 - XGBoost + LightGBM (stacking ensemble)
 - Flutter (frontend dashboard)
+
+---
+
 ## Machine Learning Pipeline
-- Dataset: Indoor Plant Health & Growth Dataset (Kaggle)
-- Preprocessing:
+- **Dataset:** Indoor Plant Health & Growth Dataset (Kaggle)
+- **Preprocessing:**
   - Label Encoding
   - SMOTEENN for class balancing
   - Gaussian noise augmentation
   - Feature standardization
-- Model:
-  - Stacking ensemble (XGBoost + LightGBM)
-- Performance:
+- **Model:** Stacking ensemble (XGBoost + LightGBM)
+- **Performance:**
   - Accuracy: 96%
   - Macro F1-score: 0.95
+
+---
+
 ## How the System Works
-1. Sensors collect environmental data
-2. ESP32 sends data to ThingSpeak via HTTP
-3. Backend stores and processes data
-4. AI model predicts plant health status
-5. Dashboard visualizes readings and recommendations
+1. Sensors collect environmental data  
+2. ESP32 sends data to ThingSpeak via HTTP  
+3. Backend stores and processes data  
+4. AI model predicts plant health status  
+5. Dashboard visualizes readings and recommendations  
+
+---
+
 ## Project Status
 ✔ Fully implemented prototype  
 ✔ Simulated using Wokwi  
 ✔ ML model trained and evaluated  
+
+---
+
 ## Limitations
 - Indoor use only
 - Requires internet connectivity
 - No automated actuation (watering/light control)
+
+---
+
 ## Future Improvements
 - Customized recommendations
 - Automated irrigation and lighting control
 - Edge ML inference on ESP32
 - Support for additional sensors
 - Mobile notifications
-# Authors
+
+---
+
+## Authors
 Douaa Amani Benharroud  
-Sara Roumaissa Benhabssa
+Sara Roumaissa Benhabssa  
+
+---
+
+## License
+This project is licensed under the MIT License.
+oumaissa Benhabssa
 # License
 This project is licensed under the MIT License.
