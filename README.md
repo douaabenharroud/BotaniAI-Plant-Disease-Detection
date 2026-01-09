@@ -30,7 +30,7 @@ The system follows a layered AIoT architecture:
 2. Network Layer: WiFi + HTTP REST APIs
 3. Cloud & Processing Layer: ThingSpeak, MongoDB, FastAPI, ML models
 4. Application Layer: Flutter dashboard
-<img src="docs/architecture.png" alt="BotaniAI System Architecture" width="700"/>
+<img src="docs/architecture.png" alt="BotaniAI System Architecture" width="300"/>
 ## Hardware Components
 - ESP32 Microcontroller
 - DHT22 (Temperature & Humidity)
@@ -43,9 +43,6 @@ The system follows a layered AIoT architecture:
 - FastAPI (ML inference service)
 - XGBoost + LightGBM (stacking ensemble)
 - Flutter (frontend dashboard)
-## Dashboard Preview
-<img src="docs/screenshots/dashboard.png" width="300"/>
-<img src="docs/screenshots/ai_analysis.png" width="300"/>
 ## Machine Learning Pipeline
 - Dataset: Indoor Plant Health & Growth Dataset (Kaggle)
 - Preprocessing:
