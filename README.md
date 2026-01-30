@@ -42,8 +42,25 @@ The system follows a layered AIoT architecture:
 
 **Figure 1.** BotaniAI system architecture
 
----
 
+---
+## Screenshots
+**Authentication**
+<img src="docs/Screenshots/LogIn.png" alt="BotaniAI System Architecture" width="300"/>
+---
+**Landing Page**
+<img src="docs/Screenshots/FirstUse.png" alt="BotaniAI System Architecture" width="300"/>
+<img src="docs/Screenshots/MainScreen.png" alt="BotaniAI System Architecture" width="300"/>
+<img src="docs/Screenshots/DeletePlant.png" alt="BotaniAI System Architecture" width="300"/>
+---
+**Sensor dashboard**
+<img src="docs/Screenshots/SensorDashboard.png" alt="BotaniAI System Architecture" width="300"/>
+<img src="docs/Screenshots/ConnectingSensors.png" alt="BotaniAI System Architecture" width="300"/>
+<img src="docs/Screenshots/SensorDataPlots.png" alt="BotaniAI System Architecture" width="300"/>
+---
+**Prediction Page**
+<img src="docs/Screenshots/Prediction.png" alt="BotaniAI System Architecture" width="300"/>
+---
 ## Hardware Components
 - ESP32 Microcontroller
 - DHT22 (Temperature & Humidity)
