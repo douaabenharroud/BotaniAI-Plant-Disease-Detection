@@ -43,23 +43,37 @@ The system follows a layered AIoT architecture:
 **Figure 1.** BotaniAI system architecture
 
 
----
 ## Screenshots
+
 ### Authentication
-<img src="docs/Screenshots/LogIn.png" alt="BotaniAI System Architecture" width="300"/>
+<p align="center">
+  <img src="docs/Screenshots/LogIn.png" alt="Login Screen" width="300"/>
+</p>
+
 ---
+
 ### Landing Page
-<img src="docs/Screenshots/FirstUse.png" alt="BotaniAI System Architecture" width="300"/>
-<img src="docs/Screenshots/MainScreen.png" alt="BotaniAI System Architecture" width="300"/>
-<img src="docs/Screenshots/DeletePlant.png" alt="BotaniAI System Architecture" width="300"/>
+<p align="center">
+  <img src="docs/Screenshots/FirstUse.png" alt="First Use Screen" width="300"/>
+  <img src="docs/Screenshots/MainScreen.png" alt="Main Screen" width="300"/>
+  <img src="docs/Screenshots/DeletePlant.png" alt="Delete Plant Screen" width="300"/>
+</p>
+
 ---
-### Sensor dashboard
-<img src="docs/Screenshots/SensorDashboard.png" alt="BotaniAI System Architecture" width="300"/>
-<img src="docs/Screenshots/ConnectingSensors.png" alt="BotaniAI System Architecture" width="300"/>
-<img src="docs/Screenshots/SensorDataPlots.png" alt="BotaniAI System Architecture" width="300"/>
+
+### Sensor Dashboard
+<p align="center">
+  <img src="docs/Screenshots/SensorDashboard.png" alt="Sensor Dashboard" width="300"/>
+  <img src="docs/Screenshots/ConnectingSensors.png" alt="Connecting Sensors" width="300"/>
+  <img src="docs/Screenshots/SensorDataPlots.png" alt="Sensor Data Plots" width="300"/>
+</p>
+
 ---
+
 ### Prediction Page
-<img src="docs/Screenshots/Prediction.png" alt="BotaniAI System Architecture" width="300"/>
+<p align="center">
+  <img src="docs/Screenshots/Prediction.png" alt="Prediction Screen" width="300"/>
+</p>
 ---
 ## Hardware Components
 - ESP32 Microcontroller
@@ -131,8 +145,5 @@ Sara Roumaissa Benhabssa
 
 ---
 
-## License
-This project is licensed under the MIT License.
-oumaissa Benhabssa
 # License
 This project is licensed under the MIT License.
